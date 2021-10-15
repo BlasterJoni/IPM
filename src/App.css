@@ -1,38 +1,44 @@
-.App {
+#hero {
+  background: url(wallhaven-qdj5rl.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#home {
+  color: white;
+  height: 100vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home h1 {
+  font-size: 72px;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000,
+    0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,
+    -1px 1px 0 #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#home h2 {
+  font-size: 30px;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000,
+    0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,
+    -1px 1px 0 #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#team {
+  background-color: #02141e;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#team #image {
+  height: 250px;
+  border: 3px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  color: black;
+  text-align: center;
+}
+
+#footer a {
+  color: black;
+  text-decoration: none;
 }
