@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/IPM/static/css/main.1b30f9d8.chunk.css",
+    "main.js": "/IPM/static/js/main.5f5593e5.chunk.js",
+    "main.js.map": "/IPM/static/js/main.5f5593e5.chunk.js.map",
+    "runtime-main.js": "/IPM/static/js/runtime-main.b180670a.js",
+    "runtime-main.js.map": "/IPM/static/js/runtime-main.b180670a.js.map",
+    "static/css/2.c1256375.chunk.css": "/IPM/static/css/2.c1256375.chunk.css",
+    "static/js/2.d0148fc1.chunk.js": "/IPM/static/js/2.d0148fc1.chunk.js",
+    "static/js/2.d0148fc1.chunk.js.map": "/IPM/static/js/2.d0148fc1.chunk.js.map",
+    "index.html": "/IPM/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/IPM/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.1b30f9d8.chunk.css.map": "/IPM/static/css/main.1b30f9d8.chunk.css.map",
+    "static/js/2.d0148fc1.chunk.js.LICENSE.txt": "/IPM/static/js/2.d0148fc1.chunk.js.LICENSE.txt",
+    "static/media/arvana.2b7a00db.jpeg": "/IPM/static/media/arvana.2b7a00db.jpeg",
+    "static/media/felix.2e4b3906.jpeg": "/IPM/static/media/felix.2e4b3906.jpeg",
+    "static/media/ines.90410569.jpeg": "/IPM/static/media/ines.90410569.jpeg",
+    "static/media/App.css": "/IPM/static/media/wallhaven-qdj5rl.219b8979.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b180670a.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.d0148fc1.chunk.js",
+    "static/css/main.1b30f9d8.chunk.css",
+    "static/js/main.5f5593e5.chunk.js"
+  ]
+}
