@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/IPM/static/css/main.eb854e81.chunk.css",
-    "main.js": "/IPM/static/js/main.8080132a.chunk.js",
-    "main.js.map": "/IPM/static/js/main.8080132a.chunk.js.map",
+    "main.css": "/IPM/static/css/main.1703cf56.chunk.css",
+    "main.js": "/IPM/static/js/main.ecad6e2d.chunk.js",
+    "main.js.map": "/IPM/static/js/main.ecad6e2d.chunk.js.map",
     "runtime-main.js": "/IPM/static/js/runtime-main.b180670a.js",
     "runtime-main.js.map": "/IPM/static/js/runtime-main.b180670a.js.map",
     "static/css/2.c1256375.chunk.css": "/IPM/static/css/2.c1256375.chunk.css",
-    "static/js/2.7a289c6e.chunk.js": "/IPM/static/js/2.7a289c6e.chunk.js",
-    "static/js/2.7a289c6e.chunk.js.map": "/IPM/static/js/2.7a289c6e.chunk.js.map",
+    "static/js/2.fb1d50bd.chunk.js": "/IPM/static/js/2.fb1d50bd.chunk.js",
+    "static/js/2.fb1d50bd.chunk.js.map": "/IPM/static/js/2.fb1d50bd.chunk.js.map",
     "index.html": "/IPM/index.html",
     "static/css/2.c1256375.chunk.css.map": "/IPM/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.eb854e81.chunk.css.map": "/IPM/static/css/main.eb854e81.chunk.css.map",
-    "static/js/2.7a289c6e.chunk.js.LICENSE.txt": "/IPM/static/js/2.7a289c6e.chunk.js.LICENSE.txt",
+    "static/css/main.1703cf56.chunk.css.map": "/IPM/static/css/main.1703cf56.chunk.css.map",
+    "static/js/2.fb1d50bd.chunk.js.LICENSE.txt": "/IPM/static/js/2.fb1d50bd.chunk.js.LICENSE.txt",
     "static/media/arvana.2b7a00db.jpeg": "/IPM/static/media/arvana.2b7a00db.jpeg",
     "static/media/content.1f9b0610.md": "/IPM/static/media/content.1f9b0610.md",
     "static/media/felix.2e4b3906.jpeg": "/IPM/static/media/felix.2e4b3906.jpeg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.b180670a.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.7a289c6e.chunk.js",
-    "static/css/main.eb854e81.chunk.css",
-    "static/js/main.8080132a.chunk.js"
+    "static/js/2.fb1d50bd.chunk.js",
+    "static/css/main.1703cf56.chunk.css",
+    "static/js/main.ecad6e2d.chunk.js"
   ]
 }
