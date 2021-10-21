@@ -1,22 +1,22 @@
-#hero {
+#home {
   background: url(wallhaven-qdj5rl.jpg) no-repeat center;
   background-size: cover;
 }
 
-#home {
+#hero {
   color: white;
   height: 100vh;
   text-align: center;
 }
 
-#home h1 {
+#hero h1 {
   font-size: 72px;
   text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000,
     0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,
     -1px 1px 0 #000000;
 }
 
-#home h2 {
+#hero h2 {
   font-size: 30px;
   text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000,
     0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,

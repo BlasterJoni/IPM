@@ -2,15 +2,17 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import TeamMember from "./TeamMember"
 import AssignmentItem from './AssignmentItem';
 import './App.css';
-import arvana from "./arvana.jpeg"
-import ines from "./ines.jpeg"
-import felix from "./felix.jpeg"
+import arvana from "./arvana.jpeg";
+import ines from "./ines.jpeg";
+import felix from "./felix.jpeg";
+import { loadFront } from "yaml-front-matter";
+import assignments from './assignments';
 
 function App() {
 
   return (
     <div className="App">
-      <div id="hero">
+      <div id="home">
         <Navbar expand="lg" variant="dark">
           <Container>
             <Navbar.Brand href="#home">Group 18</Navbar.Brand>
@@ -24,17 +26,18 @@ function App() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div id="home" className="d-flex flex-column justify-content-center align-items-center">
+        <div id="hero" className="d-flex flex-column justify-content-center align-items-center">
           <h1>Welcome to Group 18's Page</h1>
           <h2>IPM 21/22</h2>
         </div>
       </div>
       <div id="assignments" className="p-4">
         <h1>Assignments</h1>
-        <AssignmentItem id={0} title="Assignment 1 - Inês Simões" image="https://via.placeholder.com/500x250" />
-        <AssignmentItem id={1} title="Assignment 1 - João Arvana" image="https://via.placeholder.com/500x250" />
-        <AssignmentItem id={2} title="Assignment 1 - Rodrigo Félix" image="https://via.placeholder.com/500x250" />
-        <AssignmentItem id={3} title="Assignment 2" image="https://via.placeholder.com/500x250" />
+        <div className="d-flex flex-wrap flex-column align-items-center">
+          {assignments.map((assig, index) => {
+            return (<AssignmentItem id={index} key={index} assignment={assig} />)
+          })}
+        </div>
       </div>
       <div id="team" className="p-4">
         <h1>The Team</h1>
