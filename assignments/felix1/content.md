@@ -12,8 +12,8 @@
 - Why it is good?
     - It’s a good interface since it makes the process of calling someone really easy - the user doesn’t need to read any instructions guide or to even think.
 - Image
+<p alt="Figure 1 - MIUI call menu" style="width: 100%; text-align: center;"><img src="/IPM/assignments/felix1/1.jpeg" style=" max-width: 50%"/></p>
 
-![Figure 1 - MIUI call menu](/IPM/assignments/felix1/1.jpeg)
  
 ## Bad Interface – Xiaomi Android TV remote
 
@@ -28,5 +28,4 @@
 - Improvement idea
     - A easy way to better the interface would be to place functional icons in the buttons, instead of the more aesthetically pleasing shapes - in this way anyone would know what the buttons are for.
 - Image
-
-![Figure 2 - Xiaomi remote](/IPM/assignments/felix1/2.jpeg)
+<p alt="Figure 2 - Xiaomi remote" style="width: 100%; text-align: center;"><img src="/IPM/assignments/felix1/2.jpeg" style=" max-width: 50%"/></p>
