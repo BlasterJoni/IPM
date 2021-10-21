@@ -21,3 +21,4 @@ Figure 3 - Non intuitive important buttons
  - Current blinker’s design is very used friendly and very efficient. By creating a “stick” that follows the turning of the steering wheel, it’s very intuitive for drivers to know where to move it and they don’t have to go out of their way to do it. Besides that, after turning, it returns to its neutral place of not blinking when the steering wheel is straightened.
  
 ![Figure 4 - Intuitive use of blinkers](/IPM/assignments/ines1/4.png)
+Figure 4 - Intuitive use of blinkers
