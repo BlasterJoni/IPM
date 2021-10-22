@@ -1,5 +1,5 @@
 #home {
-  background: url(wallhaven-qdj5rl.jpg) no-repeat center;
+  background: url(./wallhaven-qdj5rl.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -41,4 +41,8 @@
 #footer a {
   color: black;
   text-decoration: none;
+}
+
+#assignmentModal img{
+  border: 1px solid #000000;
 }

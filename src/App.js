@@ -2,10 +2,6 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import TeamMember from "./TeamMember"
 import AssignmentItem from './AssignmentItem';
 import './App.css';
-import arvana from "./arvana.jpeg";
-import ines from "./ines.jpeg";
-import felix from "./felix.jpeg";
-import { loadFront } from "yaml-front-matter";
 import assignments from './assignments';
 
 function App() {
@@ -42,9 +38,9 @@ function App() {
       <div id="team" className="p-4">
         <h1>The Team</h1>
         <div className="d-flex flex-wrap flex-row justify-content-around pt-4 pb-4">
-          <TeamMember image={ines} name="Inês Simões" number="55584" />
-          <TeamMember image={arvana} name="João Arvana" number="54982" />
-          <TeamMember image={felix} name="Rodrigo Félix" number="55268" />
+          <TeamMember image={process.env.PUBLIC_URL + "/ines.jpeg"} name="Inês Simões" number="55584" />
+          <TeamMember image={process.env.PUBLIC_URL +"/arvana.jpeg"} name="João Arvana" number="54982" />
+          <TeamMember image={process.env.PUBLIC_URL + "/felix.jpeg"} name="Rodrigo Félix" number="55268" />
         </div>
       </div>
       <div id="footer" className="p-4">
