@@ -1,10 +1,14 @@
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Image, Button } from 'react-bootstrap';
 import TeamMember from "./TeamMember"
 import AssignmentItem from './AssignmentItem';
+import AssignmentItemRaw from './AssignmentItemRaw';
 import './App.css';
 import assignments from './assignments';
+import flowmap from "./flowmap.png"
 
 function App() {
+
+  let ind = 0;
 
   return (
     <div className="App">
@@ -31,8 +35,16 @@ function App() {
         <h1>Assignments</h1>
         <div className="d-flex flex-wrap flex-column align-items-center">
           {assignments.map((assig, index) => {
+            ind++;
             return (<AssignmentItem id={index} key={index} assignment={assig} />)
           })}
+          <AssignmentItemRaw id={ind} title={"Navegante Marvel Prototype"} resume={"Navegante's initial prototype made using MarvelApp"} image={flowmap}>
+            <div className="text-center" style={{ width: "100%" }}>
+              <Image id="image" src={flowmap} style={{ width: "100%" }}/>
+              <a href="https://marvelapp.com/prototype/d0g16jb"><Button variant="primary" className="mt-3 me-1">Go to Prototype</Button></a>
+              <a href="https://userflows.marvelapp.com/d0g16jb"><Button variant="primary" className="mt-3 ms-1">Go to UserFlow</Button></a>
+            </div>
+          </AssignmentItemRaw>
         </div>
       </div>
       <div id="team" className="p-4">
