@@ -21,7 +21,7 @@ const AssignmentItem = (props) => {
     return (
         <>
             <div className="pt-3 pb-3 d-none d-lg-flex flex-row align-items-center justify-content-around align-self-stretch">
-                {props.id % 2 ? <Image id="image" src={props.assignment.image} style={{ height: "350px", width: "650px", objectFit: "cover" }}/> : ""}
+                {props.id % 2 ? <Image id="image" src={props.assignment.image} style={{ height: "350px", width: "650px", objectFit: "cover", border: "1px solid #000" }}/> : ""}
                 <div id="info" className={`d-inline-flex flex-column justify-content-center ${props.id % 2 ? "align-items-end ms-3 text-end" : "align-items-start me-3 text-start"}`}>
                     <h3>{props.assignment.title}</h3>
                     <div id="resume" className={`${props.id % 2 ? "text-right" : "text-left"}`}>
@@ -29,11 +29,11 @@ const AssignmentItem = (props) => {
                     </div>
                     <Button variant="outline-primary" className="mt-3 align-self-center" onClick={handleShow}>See More</Button>
                 </div>
-                {props.id % 2 ? "" : <Image id="image" src={props.assignment.image} style={{ height: "350px", width: "650px", objectFit: "cover" }} />}
+                {props.id % 2 ? "" : <Image id="image" src={props.assignment.image} style={{ height: "350px", width: "650px", objectFit: "cover", border: "1px solid #000" }} />}
             </div>
 
             <div className="mb-5 mt-3 d-lg-none flex-column align-items-center">
-                <Image id="image" src={props.assignment.image} style={{ height: "50vw", width: "90vw", objectFit: "cover" }}/>
+                <Image id="image" src={props.assignment.image} style={{ height: "50vw", width: "90vw", objectFit: "cover", border: "1px solid #000" }}/>
                 <div id="info" className="d-inline-flex flex-column justify-content-center align-items-start text-start">
                     <h3>{props.assignment.title}</h3>
                     <div id="resume" className="text-left">

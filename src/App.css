@@ -23,7 +23,7 @@
     -1px 1px 0 #000000;
 }
 
-#team {
+#project{
   background-color: #02141e;
   color: white;
 }
@@ -34,12 +34,13 @@
 }
 
 #footer {
-  color: black;
+  background-color: #02141e;
+  color: white;
   text-align: center;
 }
 
 #footer a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
