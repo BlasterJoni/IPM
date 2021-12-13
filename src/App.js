@@ -44,24 +44,24 @@ function App() {
       <div id="project" className="p-4">
         <h1>Project</h1>
         <div className="d-flex flex-wrap flex-column align-items-center">
-          <AssignmentItemRaw id={0} title={"Stage 1: Project proposal"} resume={""} image={logo}>
+          <AssignmentItemRaw forDark id={0} title={"Stage 1: Project proposal"} resume={""} image={logo}>
             <div className="text-center" style={{ width: "100%" }}>
               <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage1.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
             </div>
           </AssignmentItemRaw>
-          <AssignmentItemRaw id={1} title={"Stage 2: User and task analysis"} resume={""} image={icon}>
+          <AssignmentItemRaw forDark id={1} title={"Stage 2: User and task analysis"} resume={""} image={icon}>
             <div className="text-center" style={{ width: "100%" }}>
               <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage2.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
             </div>
           </AssignmentItemRaw>
-          <AssignmentItemRaw id={2} title={"Stage 3: 1'st prototype"} resume={""} image={flowmap}>
+          <AssignmentItemRaw forDark id={2} title={"Stage 3: 1'st prototype"} resume={""} image={flowmap}>
             <div className="text-center" style={{ width: "100%" }}>
               <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage3.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
               <a target="_blank" href="https://marvelapp.com/prototype/d0g16jb"><Button variant="primary" className="mt-3 me-1">Go to Prototype</Button></a>
               <a target="_blank" href="https://userflows.marvelapp.com/d0g16jb"><Button variant="primary" className="mt-3 ms-1">Go to UserFlow</Button></a>
             </div>
           </AssignmentItemRaw>
-          <AssignmentItemRaw id={3} title={"Stage 4: Functional prototype"} resume={""} image={computational}>
+          <AssignmentItemRaw forDark id={3} title={"Stage 4: Functional prototype"} resume={""} image={computational}>
             <div className="text-center" style={{ width: "100%" }}>
               <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage4.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
               <a target="_blank" href="https://github.com/BlasterJoni/ipm_navegante"><Button variant="primary" className="mt-3 me-1">Go to the Project's Github</Button></a>

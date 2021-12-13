@@ -1,3 +1,7 @@
+body{
+  color: #02141e;
+}
+
 #home {
   background: url(./wallhaven-qdj5rl.jpg) no-repeat center;
   background-size: cover;
@@ -30,7 +34,7 @@
 
 #team #image {
   height: 250px;
-  border: 3px solid white;
+  border: 3px solid #02141e;
 }
 
 #footer {
@@ -45,5 +49,5 @@
 }
 
 #assignmentModal img{
-  border: 1px solid #000000;
+  border: 1px solid #02141e;
 }
