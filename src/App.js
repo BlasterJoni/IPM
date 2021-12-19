@@ -4,10 +4,12 @@ import AssignmentItem from './AssignmentItem';
 import AssignmentItemRaw from './AssignmentItemRaw';
 import './App.css';
 import assignments from './assignments';
-import flowmap from "./flowmap.png"
+import flowmap from "./flowmapWithBG.png"
 import computational from "./computational.png"
 import icon from "./icon.png";
 import logo from "./logo.png";
+import flashcan from "./flashcan.png";
+import heuristic from "./heuristic.png";
 
 function App() {
 
@@ -66,6 +68,16 @@ function App() {
               <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage4.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
               <a target="_blank" href="https://github.com/BlasterJoni/ipm_navegante"><Button variant="primary" className="mt-3 me-1">Go to the Project's Github</Button></a>
               <a target="_blank" href="https://github.com/BlasterJoni/ipm_navegante/releases/download/v1.0.1/navegante.apk"><Button variant="primary" className="mt-3 ms-1">Download APP</Button></a>
+            </div>
+          </AssignmentItemRaw>
+          <AssignmentItemRaw forDark id={4} title={"Stage 5: Heuristic Evaluation"} resume={""} image={flashcan}>
+            <div className="text-center" style={{ width: "100%" }}>
+              <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage5.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
+            </div>
+          </AssignmentItemRaw>
+          <AssignmentItemRaw forDark id={5} title={"Stage 6: Evaluation Results"} resume={""} image={heuristic}>
+            <div className="text-center" style={{ width: "100%" }}>
+              <iframe src={process.env.PUBLIC_URL + "/project/G_18_stage6.pdf"} style={{ width: "100%", height:"70vh" }} ></iframe>
             </div>
           </AssignmentItemRaw>
         </div>
